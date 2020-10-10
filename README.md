@@ -1,1 +1,1 @@
-# sasso_carta_forbice
+programma in python per principianti: sasso,carta,forbice.
