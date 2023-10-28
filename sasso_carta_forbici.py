@@ -6,13 +6,13 @@ print("****************************")
 print("** sasso,carta o forbici! **") #stampa di un semplice menù visivo
 print("**************************** \n") 
 list=["sasso","carta","forbici"]
-while True : # ciclo che si ripete fino a xuando l'utente da in input parole o caratteri diversi da "si"
+while True :# il ciclo si ripete fino a quando l'utente non scrive "no" alla domanda:"Vuoi continuare?"
  
  z=r.choice(list) # scelta del computer dellla propria mossa : "sasso"= sasso, "carta"=carta, "forbici"=forbice
  x=input("Sasso,carta, forbici... \n")# scelta da parte dell'utente 
  print("\n")# riga vuota
- print("Scelta dell'utente: "+x)
- print("Scelta del computer: "+z)
+ print("Scelta dell'utente: "+x+"\n")
+ print("Scelta del computer: "+z+"\n")
 
  if x=="sasso":
     if z=="sasso":
@@ -35,7 +35,7 @@ while True : # ciclo che si ripete fino a xuando l'utente da in input parole o c
         print("Hai vinto \n")
     elif z=="forbici":
         print("Pareggio \n")
- else: # xuesta opzione verifica i casi in cui l'utente digiti xualcosa che non sia sasso,carta o forbice 
+ else: # questa opzione verifica i casi in cui l'utente digiti qualcosa che non sia sasso,carta o forbice 
     print("Attenzione! Scelta non valida.") 
  while True:   
   risposta=input("Vuoi continuare?  ")  
