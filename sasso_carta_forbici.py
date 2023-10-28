@@ -7,6 +7,7 @@ print("** sasso,carta o forbici! **") #stampa di un semplice menù visivo
 print("**************************** \n") 
 list=["sasso","carta","forbici"]
 while True :# il ciclo si ripete fino a quando l'utente non scrive "no" alla domanda:"Vuoi continuare?"
+#da notare che per uscire dal programma l'utente deve giocare almeno una volta 
  
  z=r.choice(list) # scelta del computer dellla propria mossa : "sasso"= sasso, "carta"=carta, "forbici"=forbice
  x=input("Sasso,carta, forbici... \n")# scelta da parte dell'utente 
